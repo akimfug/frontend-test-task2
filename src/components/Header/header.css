@@ -1,0 +1,32 @@
+#root {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Montserrat;
+}
+body {
+  display: block;
+}
+header {
+  display: flex;
+  place-items: start start;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-top: 40px;
+}
+header .logo {
+  color: black;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+header .auth_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 140px;
+  background-color: #3799C3;
+}

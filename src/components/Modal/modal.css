@@ -1,0 +1,62 @@
+.modal {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition-duration: 0.4s;
+    color: #000;
+    font-weight: 600;
+}
+
+.modal__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 30px;
+    opacity: 1;
+    width: 700px;
+    background-color: #fff;
+}
+
+
+.modal__content .card__info {
+    width: 500px;
+    display: flex;
+    margin-top: 40px;
+    font-size: 32px;
+    justify-content: center;
+}
+
+.modal__content .card__info:has(:nth-child(2)) {
+    justify-content: space-between;
+}
+.modal__img img {
+    height: 580px;
+    width: auto;
+}
+
+.modal.active {
+    opacity: 1;
+}
+
+.modal__exit {
+    font-size: 42px;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+
+.modal__exit:hover {
+    cursor: pointer;
+}

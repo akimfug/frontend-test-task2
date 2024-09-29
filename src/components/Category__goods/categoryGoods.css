@@ -1,0 +1,16 @@
+.category {
+    margin-top: 40px;
+}
+
+.category__header {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    color: #838383
+
+}
+.category__goods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

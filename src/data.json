@@ -1,0 +1,67 @@
+{
+    "goods": [
+        {
+            "category": "Чехлы",
+            "cards": [
+                {
+                    "name": "Стекло",
+                    "url": "src/images/cards/1.png"
+                },
+                {
+                    "name": "Силиконовые",
+                    "url": "src/images/cards/2.png"
+                },
+                {
+                    "name": "Кожаные",
+                    "url": "src/images/cards/3.png"
+                }
+            ]
+        },
+        {
+            "category": "Наушники",
+            "cards": [
+                {
+                    "name": "Apple Earbuds",
+                    "url": "src/images/cards/Image.png",
+                    "price": "1999",
+                    "isLiked": "true"
+                },
+                {
+                    "name": "Apple Earbuds",
+                    "url": "src/images/cards/Image-2.png",
+                    "price": "1999",
+                    "isLiked": "true"
+                },
+                {
+                    "name": "Apple Pods",
+                    "url": "src/images/cards/Image-1.png",
+                    "price": "2999",
+                    "isLiked": "true"
+                }
+            ]
+        },
+        {
+            "category": "Беспроводные наушники",
+            "cards": [
+                {
+                    "name": "Apple Airpods",
+                    "url": "src/images/cards/Image-6.png",
+                    "price": "1999",
+                    "isLiked": "true"
+                },
+                {
+                    "name": "Apple Airpods Pro",
+                    "url": "src/images/cards/Image-4.png",
+                    "price": "1999",
+                    "isLiked": "true"
+                },
+                {
+                    "name": "Beats",
+                    "url": "src/images/cards/Image-5.png",
+                    "price": "2999",
+                    "isLiked": "true"
+                }
+            ]
+        }
+    ]
+}

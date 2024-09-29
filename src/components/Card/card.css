@@ -1,0 +1,45 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 410px;
+    background-color: #fff;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+
+}
+
+.card__info {
+    display: flex;
+    width: 290px;
+    padding: 20px 0px;
+    justify-content: center;
+    color: #1C1C27;
+    font-weight: 600;
+}
+.card__info:has(:nth-child(2)) {
+    justify-content: space-between;
+}
+.card__price {
+    color: #FFA542;
+}
+
+.card__img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    width: auto;
+}
+
+.card__like {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 25px;
+    height: 25px;
+}
