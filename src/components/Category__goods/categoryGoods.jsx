@@ -76,14 +76,15 @@ class CategoryGoods extends React.Component {
                                 <div className="category__goods">
                                     {cards.map((card, cardIndex) => ( 
                                         <Card 
-                                            key={card.id} // Используем id как ключ
-                                            name={card.name}
-                                            url={card.url}
-                                            price={card.price}
-                                            liked={card.liked}
-                                            onModal={(card) => this.changeModalActive(card)}
-                                            onLikeToggle={() => this.likeToggle(categoryIndex, cardIndex)} // Передаем индексы категории и карточки
-                                        />
+                                        key={card.id}
+                                        name={card.name}
+                                        url={card.url}
+                                        price={card.price}
+                                        isLiked={card.isLiked}
+                                        liked={card.liked}
+                                        onModal={(card) => this.changeModalActive(card)}
+                                        onLikeToggle={() => this.likeToggle(categoryIndex, cardIndex)} 
+                                    />
                                     ))}
                                 </div>
                             </div>

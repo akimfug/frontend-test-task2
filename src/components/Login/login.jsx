@@ -27,10 +27,10 @@ class Login extends Component {
         
         const { value1, value2, redirectToHome} = this.state;
         console.log(value1, value2)
-        const isDisabled = (value1.length<3) && (value2.length<3);
+        const isDisabled = (value1.length<3) || (value2.length<3); // False, когда оба элемента не пустые
 
         if (redirectToHome) {
-            return <Navigate to="/" />; // Используем Navigate для перенаправления
+            return <Navigate to="/" />; 
         }
         return (
             <div className="login">

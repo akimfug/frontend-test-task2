@@ -19,7 +19,6 @@ class Card extends Component {
                     
                     {price ? <span className='card__price'>{price}</span> : null}
                     {isLiked ? <Like onLikeToggle={onLikeToggle} liked={liked} /> : null}
-                    
                 </div>
             </div>
         );
